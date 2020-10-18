@@ -1,0 +1,26 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+    background: #f1f1f1;
+  }
+
+@media screen and (max-width: 600px) {
+
+    .navbar.responsive navbar-expand-lg navbar-light{
+
+        display: none;
+    }
+
+    .col-md-4.responsive p{
+
+        width: 100%;
+        height: auto;
+
+    }
+    .img-thumbnail.responsive{
+
+        display:inline-block;
+    }
+}
+
+
+ 

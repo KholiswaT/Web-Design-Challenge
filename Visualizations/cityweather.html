@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>City Latitude versus Weather</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+      </head>
+
+
+      
+      <body>
+        <nav class="navbar navbar-expand-lg navbar-light" style = "background-color:aliceblue">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="cityweather.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+                  Weather Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="temp.html">City Latitude vs. Maximum Temperature</a>
+                  <a class="dropdown-item" href="humidity.html">City Latitide vs. Humidity</a>
+                  <a class="dropdown-item" href="clouds.html">City Latitide vs. Cloudiness</a>
+                  <a class="dropdown-item" href="wind.html">City Latitide vs. Wind Speed</a>
+                </div>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="comparison.html">Comparisons</a>
+              </li>
+              <li class = "nav-item">
+              <a class="nav-link" href="weather.html">Latitude Raw Data</a>
+            </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="container" >
+            <div class="row">
+         
+            <div class="col-md-8" ALIGN = "center">
+              <h1 class="display-4" style = "padding:33px">How's The Weather Up There?</h1>
+              <p class="lead"><em> Analysis of the Occurrence of Weather Phenomenons in Cities at Increasing Latitudes</em></p>
+              <hr class="my-4">
+              <p style = "padding:30px">This project aims to investigate weather in cities at various latitudes. In this analysis, select weather phenomenons will be compared to cities
+                 at an increasing latitude. Specifically, the maximum temperature, wind speed, humidity and cloudiness will be analyzed by
+                examining the plots of these phenomenons.  
+                   </p>
+            </div>
+            <div class= "col-md-4" style = "border-style:outset;">
+                <p ALIGN = "center" style = "padding-top: 50px;"><u>Visualizations</u></p>
+                <a href = "clouds.html"><img src="../Resources/assets/images/Fig3.png" alt="..." class="img-thumbnail" width = "50%" ALIGN = "left"></a>
+                <a href = "humidity.html"><img src="../Resources/assets/images/Fig2.png" alt="..." class="img-thumbnail" width = "50%" ALIGN = "right"></a>
+                <a href = "temp.html"><img src="../Resources/assets/images/Fig1.png" alt="..." class="img-thumbnail" width = "50%" ALIGN = "left"></a>
+                <a href = "wind.html"><img src="../Resources/assets/images/Fig4.png" alt="..." class="img-thumbnail" width = "50%" ALIGN = "right"></a>
+                <hr class= "my-4">
+            </div>
+            </div>
+        </div> 
+       
+         
+          
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+ </html>
